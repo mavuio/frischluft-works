@@ -2,7 +2,7 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   corePlugins: {
-    preflight: false, // do not include reset-styles
+    // preflight: false, // do not include reset-styles
   },
   purge: [],
   presets: [],
