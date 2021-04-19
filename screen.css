@@ -1,0 +1,113 @@
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+fieldset,
+caption,
+table,
+tr,
+td,
+th,
+address,
+blockquote,
+img {
+  margin: 0;
+  padding: 0;
+}
+img,
+fieldset {
+  border: none;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+/* reset end */
+
+body {
+  --skyblue: #99cff7;
+  --tablebrown: #a8724f;
+  --nice_image_url: "/imgs/frischluft_bg.webp";
+  font-family: "corbel", sans-serif;
+  background: #ddd;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.container,
+.niceimage {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  width: 100%;
+  /* border: 1px solid orange; */
+  /* position: relative; */
+}
+
+.notfooter {
+  flex: auto;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  min-height: 80rem;
+}
+.niceimage {
+  flex: auto;
+  background-color: var(--skyblue);
+  background-image: var(--nice-bg-jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+@supports (background-image: url("image.webp")) {
+  .niceimage {
+    background-image: var(--nice-bg-webp);
+  }
+}
+
+h1 {
+  color: white;
+  margin-top: 3rem;
+}
+
+footer {
+  flex: 0 0 auto;
+}
+footer .container {
+  background-color: var(--tablebrown);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 0.8em;
+}
+
+section {
+  /* flex: auto;
+  padding: 2rem; */
+}
