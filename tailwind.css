@@ -11754,6 +11754,83 @@ video {
     flex: none;
   }
 
+  .sm\:float-right {
+    float: right;
+  }
+
+  .sm\:float-left {
+    float: left;
+  }
+
+  .sm\:float-none {
+    float: none;
+  }
+
+  .sm\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .sm\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .sm\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
   .sm\:static {
     position: static;
   }
@@ -13958,6 +14035,83 @@ video {
 
   .lg\:flex-none {
     flex: none;
+  }
+
+  .lg\:float-right {
+    float: right;
+  }
+
+  .lg\:float-left {
+    float: left;
+  }
+
+  .lg\:float-none {
+    float: none;
+  }
+
+  .lg\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .lg\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
   }
 
   .lg\:static {
