@@ -1,8 +1,10 @@
 // fiveserver.config.js
 module.exports = {
-    highlight: true, // enable highlight feature
-    injectBody: true, // enable instant update
+    highlight: false, // enable highlight feature
+    injectBody: false, // enable instant update
     navigate: false, // disable auto-navigation
-    remoteLogs: true | "yellow", // enable remoteLogs or choose a different color
+    remoteLogs: false | "yellow", // enable remoteLogs or choose a different color
     browser: 'Google Chrome Canary',
+    ignore: /\.svg$/i
+
 };

@@ -1,7 +1,6 @@
 body {
-  --skyblue: #99cff7;
+  --skyblue: #87cafd;
   --tablebrown: #a8724f;
-  --nice_image_url: "/imgs/frischluft_bg.webp";
   font-family: "corbel", sans-serif;
   background: #ddd;
   /* min-height: 100vh; */
@@ -32,15 +31,15 @@ body {
 .niceimage {
   flex: auto;
   background-color: var(--skyblue);
-  background-image: var(--nice-bg-jpeg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  background-image: var(--nice-header-jpeg) var(--nice-footer-jpeg);
+  background-size: 100%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center top, center bottom;
 }
 
 @supports (background-image: url("image.webp")) {
   .niceimage {
-    background-image: var(--nice-bg-webp);
+    background-image: var(--nice-header-webp), var(--nice-footer-webp);
   }
 }
 
